@@ -1,0 +1,153 @@
+body {
+    background: #0f1b2b;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 650px;
+    margin: 40px auto;
+    background: #1e2a3a;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #56a8d1;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  h5 {
+    text-align: center;
+    color: #56a8d1;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  
+  a {
+    color: #56a8d1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .win {
+    color: #ffffff;
+    background-color: #28a745;
+  }
+  
+  .loss {
+    color: #ffffff;
+    background-color: #dc3545;
+  }
+  
+  #word {
+    letter-spacing: 12px;
+    text-align: center;
+    font-size: 30px;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 20px;
+  }
+  
+  #guesses {
+    text-align: center;
+    font-size: 20px;
+    color: #f5f5f5;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 20px;
+  }
+  
+  .guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid #56a8d1;
+    border-radius: 8px;
+    margin: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .guess:hover {
+    background-color: #56a8d1;
+    transform: scale(1.1);
+  }
+  
+  @media only screen and (max-width: 767px) {
+    #guesses {
+      font-size: 24px;
+    }
+  
+    .guess {
+      padding: 18px;
+      font-size: 20px;
+    }
+  }
+  
+  #guessBox {
+    height: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 80%;
+    padding-left: 15px;
+    border: 2px solid #56a8d1;
+    outline: none;
+    margin: 15px auto;
+    display: block;
+    background-color: #0f1b2b;
+    color: #ffffff;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 14px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #56a8d1;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 12px;
+  }
+  
+  .button:hover {
+    background-color: #3c82a6;
+  }
+  
+  .button:active {
+    background-color: #33828e;
+    transform: translateY(2px);
+  }
+  
+  #controls {
+    text-align: center;
+  }
+  
+  #score {
+    text-align: center;
+    font-size: 20pt;
+    color: #f8d15c;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #hangmanImage {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+  }
